@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pic effect</title>
+<style>
+
+body {
+	background-color:linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+	min-width:600px;min-height:600px;
+	background-repeat:no-repeat;
+    background-attachment: fixed;cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width: 400px){
+    body{
+    background:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    }
+
+img {
+    width: 33%;
+    height: auto;
+    float: left; 
+    max-width: 235px;
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.blur {-webkit-filter: blur(2px);filter: blur(2px);}
+.brightness {-webkit-filter: brightness(150%);filter: brightness(150%);}
+.contrast {-webkit-filter: contrast(180%);filter: contrast(180%);}
+.grayscale {-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+.huerotate {-webkit-filter: hue-rotate(180deg);filter: hue-rotate(180deg);}
+.invert {-webkit-filter: invert(100%);filter: invert(100%);}
+.opacity {-webkit-filter: opacity(60%);filter: opacity(60%);}
+.saturate {-webkit-filter: saturate(7); filter: saturate(7);}
+.sepia {-webkit-filter: sepia(100%);filter: sepia(100%);}
+.shadow {-webkit-filter: drop-shadow(8px 8px 10px green);filter: drop-shadow(8px 8px 10px green);}
+</style>
+</head>
+<body>
+
+<p><strong>Note:</strong> Effects created by Web Development</p>
+
+<img src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="blur" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="brightness" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="contrast" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="grayscale" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="huerotate" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="invert" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="opacity" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="saturate" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="sepia" src="mypic.jpg" alt="Creater" width="300" height="300">
+<img class="shadow" src="mypic.jpg" alt="Creater" width="300" height="300">
+
+</body>
+</html>
